@@ -1,6 +1,9 @@
 name: My First GitHub Actions
 
-on: [push]
+on:
+  push:
+    paths:
+      - 'src/addition.py'
 
 jobs:
   build:
